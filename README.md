@@ -22,8 +22,9 @@ A React-based personal finance app that allows users to manage and track multipl
 - [Axios](https://axios-http.com/)
 - [date-fns](https://date-fns.org/) – for date calculations
 
-##  Folder Structure
 
+##  Folder Structure
+```
 src/
 ├── components/
 │ ├── GoalForm.jsx
@@ -33,7 +34,7 @@ src/
 │ └── Overview.jsx
 ├── App.jsx
 └── api.js
-
+```
 
 ## Getting Started
 
