@@ -1,10 +1,10 @@
 import { differenceInDays, isBefore, parseISO } from 'date-fns';
 
 function Overview({ goals }) {
+  if (!Array.isArray(goals)) return null; 
+
   const totalGoals = goals.length;
-
   const totalSaved = goals.reduce((sum, goal) => sum + goal.savedAmount, 0);
-
   const completedGoals = goals.filter(goal => goal.savedAmount >= goal.targetAmount).length;
 
   const today = new Date();
