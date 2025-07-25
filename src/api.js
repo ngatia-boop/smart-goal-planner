@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = " https://smart-goal-api-2.onrender.com";
+const BASE_URL = " https://smart-goal-api-production.up.railway.app/";
 
 export const fetchGoals = () => axios.get(BASE_URL);
 export const addGoal = (goal) => axios.post(BASE_URL, goal);
