@@ -3,7 +3,7 @@
 **A goal-tracking app to help users set, manage, and track their savings goals with progress indicators and smart budgeting features.**
 
 Live Demo: [smart-goal-planner.vercel.app](https://smart-goal-planner-umber-omega.vercel.app/)  
-API Endpoint: [smart-goal-api.onrender.com](https://smart-goal-api-u6rv.onrender.com/)
+API Endpoint: [smart-goal-api]( https://smart-goal-api-production.up.railway.app/)
 
 ---
 
@@ -35,7 +35,7 @@ Many people set financial goals but struggle to stay consistent due to lack of s
 
 ### Backend:
 - [json-server](https://github.com/typicode/json-server) (mock REST API)
-- [Render](https://render.com/) for backend deployment
+- [Railway](https://railway.app/) for backend deployment
 
 ---
 
@@ -55,9 +55,9 @@ npm install
 npm run dev
 ```
 ### 4. Production URL
-Frontend:  https://smart-goal-planner.vercel.app
+Frontend(Vercel): https://smart-goal-planner-umber-omega.vercel.app 
 
-Backend:  https://smart-goal-api.onrender.com
+Backend(Railway): https://smart-goal-api-production.up.railway.app/  
 
 ---
 
