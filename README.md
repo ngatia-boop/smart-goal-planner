@@ -1,85 +1,74 @@
-# Smart Goal Planner
+# 🎯 Smart Goal Planner
 
-A React-based personal finance app that allows users to manage and track multiple savings goals with full CRUD functionality. Built using Vite, React, and JSON Server.
+**A goal-tracking app to help users set, manage, and track their savings goals with progress indicators and smart budgeting features.**
 
-## Features
+Live Demo: [smart-goal-planner.vercel.app](https://smart-goal-planner.vercel.app)  
+API Endpoint: [smart-goal-api.onrender.com](https://smart-goal-api.onrender.com)
 
-- Create, Read, Update, and Delete (CRUD) financial goals
-- Track savings progress toward each goal with visual progress bars
-- Make deposits to individual goals
-- Get an overview of:
-  - Total goals
-  - Total money saved
-  - Completed goals
-  - Time left per goal
-  - Overdue and near-deadline warnings
+---
 
-## Built With
+## 🧠 Problem Statement
 
+Many people set financial goals but struggle to stay consistent due to lack of structure and progress feedback. Smart Goal Planner solves this by helping users create specific savings goals, monitor progress, and stay motivated with a clean interface and visual trackers.
+
+---
+
+## 🚀 MVP Features
+
+- ✅ Create, update, and delete savings goals
+- ✅ Add deposits and track progress visually
+- ✅ Automatic goal completion and overdue indication
+- ✅ Overview dashboard showing total saved and total goals
+- ✅ Responsive design using React and Tailwind CSS
+- ✅ Backend powered by `json-server` hosted on Render
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend:
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
-- [JSON Server](https://github.com/typicode/json-server)
+- [Tailwind CSS](https://tailwindcss.com/)
 - [Axios](https://axios-http.com/)
-- [date-fns](https://date-fns.org/) – for date calculations
+- [Vercel](https://vercel.com/) for frontend hosting
 
+### Backend:
+- [json-server](https://github.com/typicode/json-server) (mock REST API)
+- [Render](https://render.com/) for backend deployment
 
-##  Folder Structure
-```
-src/
-├── components/
-│ ├── GoalForm.jsx
-│ ├── GoalList.jsx
-│ ├── GoalCard.jsx
-│ ├── DepositForm.jsx
-│ └── Overview.jsx
-├── App.jsx
-└── api.js
-```
+---
 
-## Getting Started
-
-Follow these steps to run the project locally:
+## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/ngatia-boop/smart-goal-planner.git
 cd smart-goal-planner
 ```
-
-### 2. Install Dependencies
-
+### 2. Install dependencies
+```bash
 npm install
-
-### 3. Start JSON Server
-This will run the backend at http://localhost:3000
-
-npm run server
-
-### 4. Start the React App
-Runs on http://localhost:5173
-
+```
+### 3. Run Locally
+```bash
 npm run dev
+```
+### 4. Production URL
+Frontend: https://smart-goal-planner.vercel.app
 
-## Sample db.json
+Backend: https://smart-goal-api.onrender.com
 
-{
-  "goals": [
-    {
-      "id": "1",
-      "name": "Travel Fund - Japan",
-      "targetAmount": 5000,
-      "savedAmount": 3200,
-      "category": "Travel",
-      "deadline": "2025-12-31",
-      "createdAt": "2024-01-15"
-    }
-  ]
-}
+---
 
-## link to repo
- Repository: github.com/ngatia-boop/smart-goal-planner
+### Acknowledgement
+Special thanks to the Moringa School team, instructors, and peers for support and feedback during development.
 
-## Author 
-Student @ Moringa School 
+### Author
+Ann Ngatia
 GitHub: ngatia-boop
+
+
+
+
+
