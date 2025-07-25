@@ -55,9 +55,9 @@ npm install
 npm run dev
 ```
 ### 4. Production URL
-Frontend: https://smart-goal-planner-umber-omega.vercel.app/
+Frontend:  https://smart-goal-planner.vercel.app
 
-Backend: https://smart-goal-api-u6rv.onrender.com/
+Backend:  https://smart-goal-api.onrender.com
 
 ---
 
